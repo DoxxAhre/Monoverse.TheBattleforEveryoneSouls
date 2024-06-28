@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "gifts-gras.gl.joinmc.link",
+          "assigned_srv": "gifts-gras.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "43ec088b-2586-4b6a-b301-de9725e2a23b",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 48945,
+          "port_start": 48944,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-28T18:39:46.090653Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "b2fb0793-6661-464e-abc5-f8cc359b6660",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "99f91b70-0e92-4c31-868e-3ad5e2ea0284",
+          "agent_name": "MonoVerse",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
